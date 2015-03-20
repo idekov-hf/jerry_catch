@@ -22,14 +22,14 @@ surface = pygame.display.set_mode((surfaceWidth, surfaceHeight))
 
 pygame.display.set_caption('Tom and Jerry Chase')
 
-jerry_stand = pygame.image.load('jerry_stand.png').convert_alpha()
+jerry_stand = pygame.image.load('imgs/jerry_stand.png').convert_alpha()
 jerry_stand_width = 50
 jerry_stand_height = 64
-kitchen = pygame.image.load('kitchen.png').convert_alpha()
-jerry_run_right = pygame.image.load('jerry_run_right.png').convert_alpha()
-jerry_run_left = pygame.image.load('jerry_run_left.png').convert_alpha()
-plate = pygame.image.load('plate_small.png').convert_alpha()
-broken_plate = pygame.image.load('broken_plate.png').convert_alpha()
+kitchen = pygame.image.load('imgs/kitchen.png').convert_alpha()
+jerry_run_right = pygame.image.load('imgs/jerry_run_right.png').convert_alpha()
+jerry_run_left = pygame.image.load('imgs/jerry_run_left.png').convert_alpha()
+plate = pygame.image.load('imgs/plate_small.png').convert_alpha()
+broken_plate = pygame.image.load('imgs/broken_plate.png').convert_alpha()
 
 plate_rect = plate.get_rect()
 jerry_stand_rect = jerry_stand.get_rect()
